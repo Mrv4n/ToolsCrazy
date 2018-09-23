@@ -128,7 +128,7 @@ echo $white "+ [ 09 ]"$red"iesDEFACE            +"
 echo $indigo"++++++++++++++++++++++++++++++++++++"
 echo $white "+ [ 10 ]"$red"Hammer               +"
 echo $indigo"++++++++++++++++++++++++++++++++++++"
-echo $white "+ [ 11 ]"$red"Binggo               +"
+echo $white "+ [ 11 ]"$red"Gado-Gado            +"
 echo $indigo"++++++++++++++++++++++++++++++++++++"
 echo $white "+ [ 12 ]"$red"webpwn3r             +"
 echo $indigo"++++++++++++++++++++++++++++++++++++"
@@ -136,7 +136,7 @@ echo $white "+ [ 13 ]"$red"termux_webscan       +"
 echo $indigo"++++++++++++++++++++++++++++++++++++"
 echo $white "+ [ 14 ]"$red"tools diejoubu       +"
 echo $indigo"++++++++++++++++++++++++++++++++++++"
-echo $white "+ [ 15 ]"$red"slqmap               +"
+echo $white "+ [ 15 ]"$red"ko-dork              +"
 echo $indigo"++++++++++++++++++++++++++++++++++++"
 echo $white "+ [ 00 ] info"$red  "[ 99 ] Exit    +"
 echo $indigo"++++++++++++++++++++++++++++++++++++"
@@ -154,15 +154,14 @@ if [ $pea = 02 ] || [ $pea = 2 ]
 then
 cd files
 cd Lazymux
-chmod +x lazymux.py
-pyhon2 lazymux.py
+python2 lazymux.py
 fi
 
 if [ $pea = 03 ] || [ $pea = 3 ]
 then
 cd files
 cd LITESCRIPT
-python2 LITESCRiPT.py
+python2 LITESCRIPT.py
 fi
 
 if [ $pea = 04 ] || [ $pea = 4 ]
@@ -184,14 +183,14 @@ if [ $pea = 06 ] || [ $pea = 6 ]
 then
 cd files
 cd RED_HAWK
-php RED_HAWK.php
+php rhawk.php
 fi
 
 if [ $pea = 07 ] || [ $pea = 7 ]
 then
 cd files
 cd admin-finder
-python admin-finder.py
+python2 admin-finder.py
 fi
 
 if [ $pea = 08 ] || [ $pea = 8 ]
@@ -218,10 +217,8 @@ fi
 if [ $pea = 11 ] || [ $pea = 11 ]
 then
 cd files
-cd BinGoo
-termux-fix-shebang bingoo
-chmod +x bingoo
-bash bingoo
+cd GadoGado
+bash gado
 fi
 
 if [ $pea = 12 ] || [ $pea = 12 ]
@@ -244,16 +241,16 @@ fi
 if [ $pea = 14 ] || [ $pea = 14 ]
 then
 cd files
-cd diejoubu && v1.2
-chmod 777 *
-./install
-php diejoubu.php
+cd diejoubu
+cd v1.2
+php daijobu.php
 fi
 
 if [ $pea = 15 ] || [ $pea = 15 ]
 then
-cd sqlmap
-python2 sqlmap.py
+cd files
+cd ko-dork
+python2 dork.py
 fi
 
 if [ $pea = 00 ] || [ $pea = 00 ]
@@ -266,18 +263,18 @@ echo $cyan "*  $red Author : Mr.van                             +"
 echo $cyan "+ $red Contact : 089604261238                       *"
 echo $cyan "+Thanks : I.T.A & BKC & T.H.T & RCT & Baby squad   +"
 echo $cyan "+*+*+*+*+*+*+*+*+*+*"$white °Crazy° $cyan"+*+*+*+*+*+*+*+*+*+*"
-echo $red "[ 0 ] back"
+echo $red "[ 000 ] back"
 echo $red "[ 99 ] exit"
 echo $cyan
 read -p " root@Crazy;~ " pea
 fi
-if [ $pea = 99 ] || [ $pea 99 ]
+
+if [ $pea = 99 ] || [ $pea = 99 ]
 then
-clear
 echo $cyan "exit...."
 fi
 
-if [ $pea = 0 ] || [ $pea = 0 ]
+if [ $pea = 000 ] || [ $pea = 000 ]
 then
 sh Crazy.sh
 fi
