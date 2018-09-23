@@ -278,3 +278,9 @@ if [ $pea = 000 ] || [ $pea = 000 ]
 then
 sh Crazy.sh
 fi
+
+if [ $pea = install ] || [ $pea = install ]
+then
+cd files
+sh install.sh
+fi

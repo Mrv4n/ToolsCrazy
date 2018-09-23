@@ -1,0 +1,14 @@
+git clone https://github.com/4L13199/LITESPAM
+git clone https://github.com/Gameye98/Lazymux
+git clone https://github.com/4L13199/LITESCRIPT
+git clone https://github.com/Rajkumrdusad/Tool-X
+git clone https://github.com/Tuhinshubhra/RED_HAWK
+git clone https://github.com/the-c0d3r/admin-finder.git
+git clone https://github.com/root-ID-041/bom-mail
+git clone https://github.com/ALX-04/iesDEFACE
+git clone https://github.com/cyweb/hammer
+git clone https://github.com/silverhat007/termux_webscan
+git clone https://github.com/Senitopeng/GadoGado.git
+git clone https://github.com/alintamvanz/diejoubu
+git clone https://github.com/zigoo0/webpwn3r
+git clone https://github.com/CiKu370/ko-dork
